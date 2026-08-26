@@ -1,0 +1,10 @@
+# Normalize line endings
+docs/*.html linguist-vendored
+* text=auto
+*.css linguist-detectable
+*.md linguist-documentation
+
+themes/**/*.css linguist-detectable
+
+*.gif binary
+*.json linguist-detectable=false
